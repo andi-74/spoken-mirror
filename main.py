@@ -120,7 +120,7 @@ class CFScraper:
             "WoW Wrath of the Lich King Classic": self.scraper.get(
                 f"https://api.curseforge.com/v1/mods/{mod_id}/files?gameVersionTypeId=73713", headers=headers
             ).json()["data"],
-            "WoW Wrath of the Lich King Classic": self.scraper.get(
+            "WoW Forever": self.scraper.get(
                 f"https://api.curseforge.com/v1/mods/{mod_id}/files?gameVersionTypeId=88568", headers=headers
             ).json()["data"],
         }
